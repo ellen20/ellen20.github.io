@@ -1660,16 +1660,38 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		.image.fit {
-			width: 6em;
-			height: 6em;
-		}
-		.logo-imgs {
-			list-style: none;
-			display: grid;
-			grid-template-columns: repeat(4, 7em);
-		}
 
-		.my-photo {
-			width: 50% !important;
-		}
+
+.project-buttons {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.github-bt,
+.live-bt {
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 0.7em;
+}
+
+.github-bt:hover,
+.live-bt:hover {
+	border: 3px solid white;
+}
+
+.image.fit {
+	width: 6em;
+	height: 6em;
+}
+
+.logo-imgs {
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(4, 7em);
+}
+
+.my-photo {
+	width: 50% !important;
+}

@@ -1662,7 +1662,7 @@ input, select, textarea {
 
 
 
-.project-buttons {
+/* .project-buttons {
 	list-style: none;
 	display: flex;
 	flex-direction: row;
@@ -1694,4 +1694,4 @@ input, select, textarea {
 
 .my-photo {
 	width: 50% !important;
-}
+} */
